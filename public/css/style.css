@@ -1,0 +1,233 @@
+body {
+	margin: 0;
+}
+.header {
+	margin: 0px;
+	vertical-align: center;
+	width: 100%;
+	height: 130px;
+	background-color: #01a35d;
+}
+
+.search-text {
+	display: inline-block;
+	width: 150px;
+	padding: 4px;
+	height: 16px;
+	font-family: nirmala ui;
+	font-size: 12px;
+	color: #000;
+	background-color: #a2f9e5;
+	border-style: none;
+}
+
+/*style untuk index.html*/
+
+.form-login {
+	width: 400px;
+	height: 270px;
+	margin: 200px auto;
+	background-color: #2f7e7f;
+}
+
+.input-login {
+	width: 300px;
+	height: 30px;
+	padding-left: 5px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.form-login h1 {
+	text-align: center;
+	padding-top: 20px;
+	font-family: Calibri;
+	color: #fff;
+}
+
+.form-login hr {
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.form-login button {
+	color: #fff;
+	font-family: Calibri;
+	cursor: pointer;
+	float: right;
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+	margin-top: 10px;
+	margin-right: 40px;
+	background-color: #58c463;
+	border-style: none;
+}
+
+.form-login button a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/*style untuk loket.html*/
+.main-menu-loket {
+	float: left;
+	display: inline-block;
+	width: 250px;
+	height: 545px;
+	background-color: #01a35d;
+}
+
+.menu-loket {
+	cursor: pointer;
+	font-size: 17px;
+	color: #fff;
+	font-family: Calibri;
+	border-style: none;
+	padding: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 230px;
+	height: 80px;
+	background-color: #5a5e5a;	
+}
+
+.current-menu {
+	cursor: pointer;
+	font-size: 17px;
+	color: #fff;
+	font-family: Calibri;
+	border-style: none;
+	padding: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 230px;
+	height: 80px;
+	background-color: #707c6f;	
+}
+
+.pasien-panel {
+	display: inline-block;
+	width: 1047px;
+	height: 545px;
+}
+
+.sub-menu-pasien {
+	margin-left: 50px;
+	margin-top: 50px;
+	display: inline-block;
+	width: 900px;
+	height: 150px;
+	padding: 10px;
+}
+
+.add-pasien {
+	padding-top: 25px;
+	opacity: 1;
+	vertical-align: center;
+	border-radius: 5px;
+	width: 170px;
+	height: 150px;
+	background-color: #5a5e5a;
+}
+
+.keterangan-pasien {
+	padding: 10px;
+	opacity: 1;
+	vertical-align: center;
+	border-radius: 5px;
+	width: 600px;
+	height: 150px;
+	background-color: #01a35d;
+}
+
+.add-pasien img {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.sub-menu-pasien p {
+	opacity: 1;
+	color: #fff;
+	font-family: nirmala ui;
+	font-size: 18px;
+	vertical-align: center;
+}
+
+.pasien-dokter {
+	display: inline-block;
+	float: left;
+	display: none;
+	width: 1047px;
+	height: 545px;
+}
+
+.sub-menu-dokter-tabel {
+	margin-left: 50px;
+	border-radius: 5px;
+	margin-top: 50px;
+	display: inline-block;
+	width: 640px;
+	height: 380px;
+	padding: 20px;
+	background-color: #fff;
+}
+
+.sub-menu-dokter-tombol {
+	float: right;
+	margin-right: 30px;
+	margin-top: 50px;
+	display: inline-block;
+	width: 200px;
+	height: 280px;
+	padding: 20px;
+	background-color: #42f48c;
+	border-radius: 5px;
+}
+
+.sub-menu-dokter-tabel table {
+	font-family: nirmala ui;
+	color: #fff;
+	border-style: solid;
+}
+
+.sub-menu-dokter-tombol button {
+	width: 190px;
+	cursor: pointer;
+	margin-top: 20px;
+	margin-left: 5px;
+	padding: 15px;
+	border-radius: 10px;
+	font-family: nirmala ui;
+	font-size: 18px;
+	color: #fff;
+	border-style: none;
+	background-color: #5a5e5a;
+}
+
+.sub-menu-dokter-tombol label {
+	font-family: nirmala ui;
+	font-size: 14px;
+	color: #000;
+}
+
+.sub-menu-dokter-tombol select {
+	margin-top: 5px;
+	width: 150px;
+	padding: 4px;
+	height: 30px;
+	font-family: nirmala ui;
+	font-size: 12px;
+	color: #000;
+	background-color: #a2f9e5;
+	border-style: none;
+}
+
+.pasien-perawat {
+	float: left;
+	display: none;
+	width: 1047px;
+	height: 545px;
+}
